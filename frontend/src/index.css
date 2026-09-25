@@ -929,7 +929,8 @@ a:hover { color: var(--color-text-accent); }
   color: var(--color-text-secondary);
   overflow: auto;
   max-height: 300px;
-  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 /* ─── Divider ────────────────────────────────────────────── */
